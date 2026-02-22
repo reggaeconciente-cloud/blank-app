@@ -39,4 +39,3 @@ ranking_final = sorted(ranking, key=lambda x: x['Puntos'], reverse=True)
 st.write("### 🏆 Ranking de hoy")
 for i, playa in enumerate(ranking_final[:5], 1):
     st.write(f"**{i}° {playa['Playa']}**")
-    
